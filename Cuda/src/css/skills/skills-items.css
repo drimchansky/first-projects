@@ -1,0 +1,15 @@
+.skills-items {
+    margin-top: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+	.skills-item img {
+	    width: 90%;
+	    max-width: 180px;
+	}
+		.skills-item h3 {
+		    font-family: 'Titillium Web', sans-serif;
+		    font-size: 1rem;
+		    color: #3c4761;
+		}
+

@@ -1,0 +1,153 @@
+.process-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.process_caption{
+    color: #575757;
+    width: 90%;
+    max-width: 400px;
+}
+.process_caption h3{
+    position: relative;
+    display: inline-block;
+    margin: 20px 0 0 0;
+    font-weight: normal;
+    font-size: 1em;
+    z-index: 3;
+}
+.process_caption h3:before{
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 20px;
+    left: -15px;
+    top: 5px;
+    background: url('../../imgs/arrow.png') no-repeat;
+    background-size: contain;
+}
+.process_caption p{
+
+}
+.process_image{
+    text-align: center;
+    z-index: 3;
+}
+.process_image img{
+    width: 90%;
+}
+
+
+
+/* MEDIA */
+
+
+@media (min-width: 768px) {
+    .process-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .process_second-item .process_caption{
+        order: 1;
+    }
+    .process_second-item .process_image{
+        order: 0;
+    }
+    .process_fourth-item .process_caption{
+        order: 1;
+    }
+    .process_fourth-item .process_image{
+        order: 0;
+    }
+    .process_caption h3:before{
+        top: 8px;
+    }
+    /* EXTRA ELEMENTS */
+    .process_first-item .process_image{
+        position: relative;
+    }
+    .process_first-item .process_image:after{
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 70px;
+        background: url('../../imgs/wave.png') repeat-y;
+        background-size: contain;
+        top: 20px;
+        right: -8px;
+    }
+    .process_first-item .process_caption h3:after{
+        content: "просто";
+        position: absolute;
+        font-size: 3.5em;
+        right: -135px;
+        top: -52px;
+        color:#f0f0f0;
+        z-index: -1;
+    }
+    .process_second-item .process_caption h3:after{
+        content: "общение";
+        position: absolute;
+        font-size: 4em;
+        left: -118px;
+        top: -66px;
+        color:#f0f0f0;
+        z-index: -1;
+    }
+    .process_third-item .process_caption h3:after{
+        content: "практика";
+        position: absolute;
+        font-size: 4em;
+        right: -85px;
+        top: -63px;
+        color:#f0f0f0;
+        z-index: -1;
+    }
+    .process_fourth-item .process_caption h3:after{
+        content: "повтор";
+        position: absolute;
+        font-size: 4em;
+        left: -165px;
+        top: -52px;
+        color:#f0f0f0;
+        z-index: -1;
+    }
+    .process_fourth-item .process_image{
+        position: relative;
+    }
+    .process_fourth-item .process_image:after{
+        position: absolute;
+        content: "";
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: 10px solid #2429FF;
+        top: -32px;
+        right: -14px;
+    }
+    .process_second-item .process_image{
+        position: relative;
+    }
+    .process_second-item .process_image:after{
+        position: absolute;
+        content: "";
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background: #2429FF;
+        top: -45px;
+        left: 83px;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+
+}

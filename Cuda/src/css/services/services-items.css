@@ -1,0 +1,20 @@
+.services-items {
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+    .services-items img {
+        width: auto;
+        height: 10vw;
+    }
+        .services-items h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0;
+        }
+            .services-items p {
+                font-size: .6rem;
+                line-height: 1.2;
+            }
+.services-item {
+    margin-top: 35px;
+}

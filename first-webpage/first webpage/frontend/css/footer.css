@@ -1,0 +1,20 @@
+.footer{
+	width: 100%;
+	display: inline-flex;	
+	justify-content: center;
+	margin-top: 80px;
+}
+	.footer-container{
+		width: 1300px;
+		display: inline-flex;
+		justify-content: center;
+}
+		.footer-content{
+			width: 60%;
+			border-top: 2px solid black;
+			min-height: 150px;
+		}
+		.footer-content span {
+			font-size: 1.5em;
+			text-align: left;
+		}

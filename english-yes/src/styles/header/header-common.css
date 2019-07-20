@@ -1,0 +1,27 @@
+.heaeder{
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+
+/* MEDIA */
+
+
+@media (min-width: 768px) {
+    .header-wrapper:before{
+        content: "english yes";
+        color: black;
+        position: absolute;
+        font-size: 260px;
+        z-index: -1;
+        opacity: .2;
+        white-space: nowrap;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+
+}

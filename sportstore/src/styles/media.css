@@ -1,0 +1,77 @@
+	/*additional point*/
+@media screen and (max-width: 1150px){
+
+/*footer*/
+.footer{
+    margin:0px;
+}
+}
+@media screen and (max-width: 990px){
+
+}		
+			/*MAIN POINT */
+
+
+@media screen and (max-width: 800px){
+
+			/* CONTENT*/
+.content-container{
+	grid-template-columns: repeat(2, 50%);
+	grid-template-rows: repeat(8, 300px);
+   /* grid-template-rows: repeat(20, 300px);*/
+    grid-template-areas: 
+	"p1 p2"
+	"p3 p4"
+    "of-cap of-cap"
+	"of-cap of-cap"
+	"of-pic of-pic"
+    "of-pic of-pic"
+    "boot-1   boot-2"
+    "boot-3   boot-4"
+	"ban-1   glass-1"
+	"watch   boot-5"
+	"boot-6   boot-7"
+    "ban-2   ban-2"
+	"imgs-1   imgs-2"
+	"imgs-3   imgs-4"
+	"imgs-5   imgs-6"
+	"imgs-7   imgs-8"
+    "spons   spons"
+    "spons   spons";
+}
+/*products*/
+
+
+.content-container-products__banner-2 button{
+	margin: 32px 0 40px 100px;
+
+}
+
+/*sponsors*/
+.content-container-sponsors-wrap{
+    grid-template-columns: repeat( 4, 1fr);
+}
+/* FOOTER */
+.footer-container__shop-list,
+.footer-container__information-list,
+.footer-container__service-list
+{
+display: none;
+}
+.footer-container{
+    height: 300px;
+}
+}
+
+@media screen and (max-width: 500px){
+
+/* products*/
+.content-container-products__banner-2 h3{
+    font-size: 2.5em;
+}
+/*sponsors*/
+.content-container-sponsors-wrap{
+    display: none;
+}
+} 
+

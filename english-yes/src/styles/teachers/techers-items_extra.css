@@ -1,0 +1,84 @@
+
+
+
+
+/* MEDIA */
+
+
+@media (min-width: 768px) {
+    .teachers_second-item{
+        position: relative;
+    }
+    .teachers_second-item:before{
+        content: "";
+        position: absolute;
+        background: rgb(216, 210, 210);
+        top: 149px;
+        left: -1000px;
+        z-index: -1;
+        height: 3px;
+        width: 2000px;
+    }
+    .teachers_third-item{
+        position: relative;
+    }
+    .teachers_third-item:after{
+        content: "";
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        border: 80px solid rgb(216, 210, 210);
+        border-radius: 50%;
+        top: -11px;
+        left: 390px;
+    }
+    .teachers_third-item:before{
+        content: "";
+        position: absolute;
+        background: url('../../imgs/wave.png') repeat-y;
+        height: 38px;
+        width: 120px;
+        top: 325px;
+        left: 373px;
+        z-index: 1;
+    }
+    
+}
+
+
+
+@media (min-width: 1200px) {
+    .teachers_first-item{
+        position: relative;
+    }
+    .teachers_first-item:before{
+        position: absolute;
+        content: "";
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background: #2429FF;
+        left: -90px;
+        top: 100px;
+    }
+    .teachers_second-item:before{
+        top: 115px;
+        left: -50000px;
+        width: 100000px;
+    }
+    .teachers_third-item:after{
+        border: 40px solid rgb(216, 210, 210);
+        height: 200px;
+        width: 200px;
+        top: -132px;
+        left: 132px;
+        z-index: -1;
+    }
+    .teachers_third-item:before{
+        top: 39px;
+        left: 320px;
+        background-size: contain;
+        width: 100px;
+        height: 39px;
+    }
+}

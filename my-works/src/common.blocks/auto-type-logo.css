@@ -1,0 +1,15 @@
+         .auto-type-logo__text{
+            overflow: hidden; 
+            white-space: nowrap;
+            margin-left: 15px;
+        }
+         .auto-type-logo__text span {
+            border-right: 2px solid rgb(27, 27, 211);
+            animation: caret 1s steps(1) infinite;
+          }
+          
+          @keyframes caret {
+            50% {
+              border-color: transparent;
+            }
+          }

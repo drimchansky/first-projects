@@ -1,0 +1,21 @@
+.header-container_info-line{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0 0;
+}
+
+
+
+
+/* MEDIA */
+
+
+  @media (min-width: 768px) {
+
+  }
+
+
+
+  @media (min-width: 1200px) {
+
+  }

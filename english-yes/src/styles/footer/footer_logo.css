@@ -1,0 +1,35 @@
+.footer_logo{
+    text-align: center;
+    margin-top: 24px;
+}
+.footer_logo h2{
+    display: inline-block;
+    color: #e72247;
+    font-weight: normal;
+    margin: 0;
+    font-size: 1.7em;
+}
+.footer_logo p{
+    color: #515151;
+    margin: 10px 0 0 0;
+}
+
+
+/* MEDIA */
+
+
+@media (min-width: 768px) {
+    .footer_logo{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 30px;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+
+}

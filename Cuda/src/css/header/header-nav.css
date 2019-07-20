@@ -1,0 +1,26 @@
+.nav {
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    margin-top: 40px;
+    justify-content: flex-end;
+}
+    .nav ul {
+        display: none;
+        list-style-type: none;
+    }
+        .nav li {
+            display: inline-block;
+            margin-left: 0;
+        }
+            .nav a {
+                display: block;
+                height: 100%;
+                padding: 8px 10px;
+                transition: .3s;
+                text-decoration: none;
+                color: #dbcae1;
+                border-radius: 5px;
+            }
+                .nav a:hover {
+                    background: #643a79;
+                }

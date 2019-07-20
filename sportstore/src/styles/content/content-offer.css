@@ -1,0 +1,74 @@
+/*CAPTION*/
+.conternt-container-offer__caption{
+    grid-area: of-cap;
+    text-align: center;
+    background: #efeded;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.conternt-container-offer__caption .top{
+    color:  #616161;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    margin-top: 60px;
+}
+.conternt-container-offer__caption h2{
+    font-family: 'Poppins', sans-serif;
+    color:  #0d2e57;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    
+}
+.conternt-container-offer__caption .description{
+    font-family: 'Montserrat', sans-serif;
+    color:#9f9d9e;
+    font-size: .9em;
+    width: 90%;
+}
+.conternt-container-offer__caption .worth{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.conternt-container-offer__caption .after{
+    font-size: 2.7em;
+    color:#3954d9;
+    font-weight: 700;
+}
+.conternt-container-offer__caption .before{
+    margin-left: 35px;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.conternt-container-offer__caption button{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 70px;
+    width: 125px;
+    height: 43px;
+    background: #3954d9;
+    color:#fff;
+    border:none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: .9em;
+    margin-bottom: 70px;
+    transition: all .2s;
+}
+.conternt-container-offer__caption button:hover{
+    background: #152368;
+}
+
+/*PICTURE */
+.conternt-container-offer__picture{
+    grid-area: of-pic;
+    background: url(~/imgs/sportsmen-3.png);
+    background-size: cover;
+    background-position: center;
+}
+

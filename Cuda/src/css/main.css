@@ -1,0 +1,18 @@
+@import url('normalize.css');
+@import url('bootstrap-grid.css');
+@import url('vars.css');
+@import url('fonts.css');
+@import url('common.css');
+@import url('header/header-main.css');
+@import url('services/services-main.css');
+@import url('team/team-main.css');
+@import url('skills/skills-main.css');
+@import url('portfolio/portfolio-main.css');
+@import url('form/form-main.css');
+@import url('footer/footer-main.css');
+
+
+    @import url('media/media-main.css');
+
+ 
+   

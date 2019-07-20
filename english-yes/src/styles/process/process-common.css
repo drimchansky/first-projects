@@ -1,0 +1,68 @@
+.process{
+    background: #f8f8f8;
+    border-radius: 47% 46% 48% 46% / 1% 1% 1% 1% ;
+}
+.process-container{
+    padding-bottom: 50px;
+}
+
+
+
+
+
+/* MEDIA */
+
+
+@media (min-width: 768px) {
+    .process{
+        background: #f8f8f8;
+        border-radius: 49% 51% 47% 52% / 16% 17% 12% 13%;
+    }
+    .process-container{
+        padding-bottom: 150px;
+        position: relative;
+    }
+    .process-contrainer_extra-round{
+        position: absolute;
+        right: 30px;
+        bottom: -90px;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 50px solid #f8f8f8;
+    }
+    .process-contrainer_extra-round:before{
+        content: "";
+        position: absolute;
+        background: #2429FF; 
+        right: 117px;
+        bottom: -47px;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+    }
+    .process-contrainer_extra-round:after{
+        content: "";
+        position: absolute;
+        background: url('../../imgs/wave.png') repeat-y; 
+        background-size: contain;
+        right: -37px;
+        bottom: -7px;
+        height: 16px;
+        width: 45px;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    .process{
+        background: #f8f8f8;
+        border-radius: 49% 51% 47% 52% / 36% 35% 26% 26%;
+    }
+    .process-contrainer_extra-round{
+        position: absolute;
+        right: 38px;
+        bottom: -40px;
+    }
+}

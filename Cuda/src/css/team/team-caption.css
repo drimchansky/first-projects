@@ -1,0 +1,11 @@
+.team-caption {
+    color: #6c778b;
+}
+	.team-caption h2 {
+	    color: #6a7489;
+	}
+		.subline:after {
+		    top: 40px;
+		    left: 67px;
+		    border-bottom: 3px solid #c8d9e5;
+		}

@@ -1,0 +1,105 @@
+
+                                /*≥768px .col-md-*/
+
+@media only screen
+and (min-width: 768px) {
+                    /*COMMON*/
+
+                /*caption*/
+.caption h2 {
+    font-size: 2.5rem;
+}
+    .caption p {
+        font-size: 1.3rem;
+    }
+                    /*HEADER*/
+
+                /*logo*/
+.logo {
+    text-align: left;
+}
+    .logo img {
+        width: auto;
+    }
+                /*nav*/
+.nav ul {
+    display: block;
+}
+                /*button*/
+.header-button button {
+    font-size: 1.5rem;
+}
+                    /*SERVICES*/
+
+                /*caption*/
+.services-caption h2 .subline:after {
+    top: 75px;
+    left: 170px;
+}
+    .services-caption p {
+        font-size: 1.3rem;
+    }
+                /*items*/
+.services-item h3 {
+    font-size: 1.3rem;
+}
+    .services-item p {
+        font-size: 1rem;
+    }
+                    /*TEAM*/
+
+                /*caption*/
+.team-caption h2 .subline:after {
+    top: 76px;
+    left: 175px;
+}
+                /*items*/
+.team-link a {
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 10px;
+}
+                    /*SKILLS*/
+
+                /*caption*/
+.skills-caption h2 .subline:after {
+    top: 73px;
+    left: 70px;
+}
+                    /*PORTFOLIO*/
+
+                /*caption*/
+.portfolio-caption h2 .subline:after {
+    top: 75px;
+    left: 75px;
+}
+                /*items*/
+.profile-content-item {
+    margin-top: 40px;
+}
+                /*button*/
+.portfolio-more-button .button {
+    font-size: 1.2rem;
+    padding: 20px 35px;
+}
+                    /*FORM*/
+
+                /*caption*/
+.form-caption h2 .subline:after {
+   left:55px;
+   top:73px;
+}
+                /*button*/
+.form-content .button{
+    font-size: 1.2rem;
+    padding: 35px 70px;
+    line-height: 5px;
+}
+                    /*FOOTER*/
+    
+.footer a{
+    font-size: 1.2rem;
+}
+
+
+}

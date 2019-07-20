@@ -1,0 +1,20 @@
+{
+  "name": "parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "watch": "parcel */index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.4.4",
+    "parcel-bundler": "^1.11.0",
+    "postcss": "^7.0.7"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

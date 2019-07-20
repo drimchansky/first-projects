@@ -1,0 +1,73 @@
+.second-body{
+	width: 100%;
+	display:flex;
+}
+	.second-body-container{
+		width: 1300px;
+		margin:0 auto;
+		display: inline-flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+							/*LEFT MENU*/	
+		.left-menu{
+			width: 20%;
+			min-width: 300x;
+			min-height:200px;
+			display: inline-flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			margin-top: 20px;
+		}
+			.menu-item{
+				width: 100%;
+				word-wrap: break-word;
+			}
+				.menu-item a{
+					display: block;
+					height: 100%;
+					text-decoration: none;
+					font-size: 1.2em;
+					padding: 10px 0 7px 10px;
+					background: var(--menu-color);
+					color:#dcdcdc;
+					box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.15);
+				}
+				.menu-item a:first-child{
+					border-top-right-radius: 10px;
+					border-bottom-right-radius: 5px;
+				}
+					.menu-item a:hover{
+						text-decoration: underline;
+						color:white;
+						padding-left:6px;
+						background: #EF800D;
+						transition: all .1s;
+
+					}
+
+							/*MIDDLE NEWS in DIFFERENT FILE*/
+
+							/*RIGHT INFO*/
+		.right-info{
+			width: 17%;
+			max-height: 200px;
+			display: inline-flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			align-items: flex-start;
+			justify-content: flex-start;
+		}
+			.right-info a{
+				text-decoration: none;
+				color: black;
+			}
+				.journal{
+					font-size: 1.3em;
+					text-align: center;
+					padding: 10px;
+				}
+				.right-info figcaption a{
+					border-bottom: 1px solid darkblue;
+				}
+

@@ -1,0 +1,36 @@
+					/*COMMON*/
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+.mobile-hide {
+    display: none;
+}
+
+                    /*CAPTION*/
+
+.caption {
+    padding-top: 40px;
+    text-align: center;
+}
+    .caption h2 {
+        font-size: 1.2rem;
+    }
+        .caption p {
+            font-size: 1rem;
+            line-height: 20px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+                    /*CAPTION UNDERLINE*/
+
+.subline {
+    position: relative;
+}
+    .subline:after {
+        position: absolute;
+        display: inline-block;
+        width: 130px;
+        content: '';
+        border-bottom: 3px solid #0ca48b;
+    }

@@ -1,0 +1,7 @@
+.portfolio-caption {
+    color: #3c4761;
+}
+	.portfolio-caption h2 .subline:after {
+	    left: 5px;
+	    border-bottom: 3px solid #e5c37f;
+	}

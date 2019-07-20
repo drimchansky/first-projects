@@ -1,0 +1,28 @@
+.header-content {
+	color: #fff;
+	text-transform: uppercase;
+	margin-left: 5%;
+}
+.header-content__primary-text{
+	font-size: calc(1.5em + 8vw);
+	margin: 70px 0 0 10px;
+	line-height: 1em;
+}
+.header-content__secondary-text{
+	font-size: 1.5em;
+	margin: 30px 0 0 10px;
+}
+
+
+/* MEDIA */
+
+
+@media (min-width: 768px) {
+
+}
+
+
+
+@media (min-width: 1200px) {
+
+}

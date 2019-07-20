@@ -1,0 +1,25 @@
+        .social{
+            margin-top: .67em;
+            position: relative;
+            margin-right:20px;
+        }
+        .social__image{
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            left:-36px;
+            top:8px;
+        }
+        .social__link:hover,:focus .social__image{
+            fill:rgb(27, 27, 211); 
+            transition: all .2s;
+        }
+        
+                .social__link{
+            display: inline-block;
+            text-decoration: underline;
+            padding-bottom: 5px;
+            text-decoration: none;
+        }
+
+        

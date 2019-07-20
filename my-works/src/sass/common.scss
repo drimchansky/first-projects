@@ -1,0 +1,31 @@
+html,body{
+	height: 100%;
+	font-family: "Josefin Sans", sans-serif;
+}
+html{
+    overflow-y: scroll;
+}
+
+*{
+    box-sizing: border-box;
+    outline: none;
+    transition: outline 0s;
+}
+*:focus{
+		outline:none;
+    outline: 2px solid rgba(27, 27, 211, 0.75);
+    text-decoration: none;
+  }
+
+a{
+    color:black;
+}
+ul,li{
+    padding: 0;
+}
+
+
+
+  
+
+

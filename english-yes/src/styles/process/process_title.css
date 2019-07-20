@@ -1,0 +1,49 @@
+.process_title{
+    text-align: center;
+    margin-top: 50px;
+}
+.process_title h2{
+    display: inline-block;
+    position: relative;
+    margin: 50px 0 20px 0;
+    font-weight: normal;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.process_title h2:after{
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 5px;
+    background: #f5112c;
+    left: 86px;
+    top: 90px;
+}
+
+
+
+
+/* MEDIA */
+
+
+@media (min-width: 768px) {
+    .process_title{
+        text-align: left;
+        margin-left: 20px;
+    }
+    .process_title h2:after{
+        content: "";
+        position: absolute;
+        width: 55px;
+        height: 5px;
+        background: #f5112c;
+        left: 0px;
+        top: 99px;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,38 @@
+:root{
+	--menu-color:#342771;
+	--news-bg: #EFF1F3;
+	--quote-bg:#005aaa;
+	--blue-line:#342771;
+	
+}
+
+
+.sprite {
+    background-image: url(img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-001-newspaper {
+    width: 16px;
+    height: 16px;
+    background-position: -5px -5px;
+}
+
+.sprite-002-clock {
+    width: 16px;
+    height: 16px;
+    background-position: -31px -5px;
+}
+
+.sprite-003-location-pin {
+    width: 16px;
+    height: 16px;
+    background-position: -5px -31px;
+}
+
+.sprite-004-smartphone-call {
+    width: 16px;
+    height: 16px;
+    background-position: -31px -31px;
+}

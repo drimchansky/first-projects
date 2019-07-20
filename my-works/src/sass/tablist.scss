@@ -1,0 +1,73 @@
+[role="tablist"] [aria-selected] {
+  border: 2px solid rgb(27, 27, 211);
+  text-decoration: none;
+  position: relative;
+}
+.tablist{
+  margin-left: 30px;
+}
+.tab-section{
+  outline: none;
+}
+  .tablist li {
+    list-style-type: none;
+    margin:12px 0 0 0;
+    font-size: 1.3em;
+  }
+  .tablist li a{
+    padding: 8px;
+  }
+
+  /* DESCTOP STYLES */
+
+  @media screen and (min-width:700px){
+    .tablist{
+      margin-top: 30px;
+      margin-left: 0;
+    }
+    .tablist li{
+      display: inline-block;
+     }
+     .tablist li:not(:first-child){
+      margin-left: 15px;
+     }
+     .tablist li a{
+     font-size: 1.1em;
+     border: 2px solid transparent;
+     transition: hover .2s;
+     text-decoration: none;
+     position: relative;
+    }
+     .tablist li a:hover{
+      text-decoration: none;
+      border: 2px solid rgba(27, 27, 211, 0.75);
+    }
+    .tablist li a:focus:before{
+      content: "";
+      height: 20px;
+      width: 20px;
+      background: url('../images/arrow-left.svg') no-repeat;
+      position: absolute;
+      left: -24px;
+      top:7px;
+    }
+    .tablist li:first-child a:focus:before{
+      display: none;
+    }
+    .right-arrow-anchor{
+      position: relative;
+    }
+    .tablist li a:focus .right-arrow-anchor:after{
+      content: "";
+      height: 20px;
+      width: 20px;
+      background: url('../images/arrow-right.svg') no-repeat;
+      position: absolute;
+      left: 10px;
+      top:0px;
+    }
+    .tablist li:last-child a:focus .right-arrow-anchor:after{
+      display: none;
+    }
+
+}

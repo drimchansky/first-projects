@@ -1,0 +1,14 @@
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+@media screen and (min-width:600px){
+.container_works-list{
+	max-width: 70%;
+}
+}

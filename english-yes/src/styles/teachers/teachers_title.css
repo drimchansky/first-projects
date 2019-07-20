@@ -1,0 +1,25 @@
+.teachers_title {
+    text-align: center;
+}
+.teachers_title h2 {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+/* MEDIA */
+
+
+@media (min-width: 768px) {
+    .teachers_title {
+        text-align: left;
+        margin-left: 10px;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,76 @@
+.middle-news{
+	width: 62%;
+	min-width: 600px;
+	display: inline-flex;
+	margin-top:10px;
+	justify-content: space-around;
+	margin-left: 3px;
+	flex-wrap: wrap;
+}
+	.news-item{
+		width: 45%;
+		min-height: 100px;
+		display:inline-flex;
+		justify-content: flex-start;
+		align-items: center;
+		flex-wrap: wrap;
+		flex-direction: column;
+		border:1px solid darkblue;
+		margin:25px 0 0 25px;
+		border-radius: 10px;
+		background: var(--news-bg);
+	}
+
+				/*PATTERN*/
+.ratio {
+    width: 95%; /* здесь можно установить любую нужную ширину */
+    padding-top: 10px;
+}
+
+.ratio-inner {
+    position: relative;
+    height: 0;
+    border: none;
+    display:flex;
+}
+
+.ratio-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display:flex;
+}
+
+.ratio-100 {
+    padding-bottom: 60%; /* 100% ширины делим на 4 и умножаем на 3 */
+}
+img{
+	height: 100%;
+	width: 100%;
+}
+											/*END PATTERN*/
+
+.news-caption{
+	font-size: 2rem;
+	padding: 5px 2px;
+	text-align: center;
+	line-height: 0.8em;
+}
+.news-caption a{
+	text-decoration: none;
+	border-bottom: 1px solid darkblue;
+	color:darkblue;
+}
+.hidd{
+	font-size: 1.1em;
+	padding: 5px;
+	max-height: 50%;
+	overflow: hidden;
+	max-height: 200px;
+}
+.read-more{
+	font-size:1.2em;
+}
+	

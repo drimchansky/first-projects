@@ -1,0 +1,42 @@
+.case-container_question{
+    
+}
+.case-container_question h2{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 90px 0 0 0;
+    position: relative;
+    z-index: 1;
+}
+.case-container_question h2:before{
+    content: "?";
+    position: absolute;
+    font-size: 8em;
+    font-weight: bold;
+    right: -43px;
+    top: -83px;
+    color: #b8b3b3;
+    z-index: -10;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+    .case-container_question{
+        align-self: flex-start;
+        margin-left: 10px;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    .case-container_question{
+        align-self: flex-start;
+        margin-left: 100px;
+    }
+}
+

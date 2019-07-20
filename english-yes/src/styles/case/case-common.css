@@ -1,0 +1,49 @@
+.case-wrapper{
+    max-width: 1600px;
+    margin: 30px auto 0px auto;
+    background: #e2dada;
+    border-radius: 44% 45% 10% 10% / 1% 1% 1% 1% ;
+}
+.case-container{
+    display: flex;
+    flex-direction: column;
+}
+.case-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.case-item img{
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+/* MEDIA */
+
+
+@media (min-width: 768px) {
+    .case-item{
+        width: auto;
+        margin-top: 10px;
+    } 
+    .case-wrapper{
+        border-radius: 37% 60% 61% 28% / 3% 16% 19% 4% ;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    .case-item{
+        text-align: left;
+    }
+}

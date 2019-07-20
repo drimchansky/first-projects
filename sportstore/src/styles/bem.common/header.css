@@ -1,0 +1,23 @@
+.header{
+	background: url(../../imgs/header-bg.jpg) no-repeat;
+	background-size: cover;
+	background-position: 38% 50%;
+	padding-bottom: 50px;
+}
+
+
+
+/* MEDIA */
+
+
+@media (min-width: 768px) {
+.header{
+	padding-bottom: 110px;
+}
+}
+
+
+
+@media (min-width: 1200px) {
+
+}

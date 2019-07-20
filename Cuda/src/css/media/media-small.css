@@ -1,0 +1,72 @@
+
+                                /*≥576px .col-sm-*/
+@media only screen
+and (min-width: 576px) {
+                    /*COMMON*/
+
+.mobile-hide {
+    display: block;
+}
+                /*caption*/
+.caption h2 {
+    font-size: 2rem;
+}
+
+                    /*SERVICES*/
+
+                /*caption*/
+.services-caption h2 .subline:after {
+    top: 63px;
+    left: 145px;
+    }
+                /*items*/
+.services-item h3 {
+    font-size: 2rem;
+}
+    .services-item p {
+        font-size: .9rem;
+    }
+
+                    /*TEAM*/
+
+                /*caption*/
+.team-caption h2 .subline:after {
+    top: 63px;
+    left: 135px;
+}
+                /*items*/
+.team-image {
+    width: 150px;
+    height: 150px;
+}
+    .team-item h4 {
+        font-size: 1.2rem;
+    }
+        .team-item p {
+            font-size: .9rem;
+        }
+                    /*SKILLS*/
+
+                /*caption*/
+.skills-caption h2 .subline:after {
+    top: 60px;
+    left: 50px;
+}
+        .skills-item h3 {
+            font-size: 1.3rem;
+        }
+                    /*PORTFOLIO*/
+
+                /*caption*/
+.portfolio-caption h2 .subline:after {
+    top: 60px;
+    left: 45px;
+}
+                    /*FORM*/
+
+                /*caption*/
+.form-caption h2 .subline:after {
+   left:32px;
+   top:58px;
+}
+}

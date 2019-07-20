@@ -1,0 +1,67 @@
+.freetrail-container_image{
+    position: relative;
+    margin: 40px auto 0 auto;
+    width: 100%;
+    max-width: 500px;
+    height: 280px;
+    background: url('../../imgs/flight.png') no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.freetrail-container_image:before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 11px;
+    background: url('../../imgs/wave.png') repeat-y;
+    background-size: contain;
+    right: 0px;
+    top: 10px;
+}
+.freetrail-container_image:after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 11px;
+    background: url('../../imgs/wave.png') repeat-y;
+    background-size: contain;
+    left: 10px;
+    bottom: 60px;
+}
+.freetrail-image-extra_dot{
+    position: absolute;
+    content: "";
+    background: #2429FF;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    right:20px;
+    top: 60px;
+}
+
+
+
+
+
+/* MEDIA */
+
+
+@media (min-width: 768px) {
+    .freetrail-container_image{
+        position: relative;
+        margin: 0;
+        width: 50%;
+        max-width: 800px;
+        height: 400px;
+        background-position: 50% 50%;
+    }
+    .freetrail-image-extra_dot{
+       display: none;
+    }
+    }
+    
+    
+    
+    @media (min-width: 1200px) {
+    
+    }

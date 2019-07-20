@@ -1,0 +1,15 @@
+/* MEDIA */
+
+
+@media (min-width: 768px) {
+    .provided{
+        background: url('../../imgs/situation-image.png') no-repeat 110%;
+        background-size: contain;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    
+}

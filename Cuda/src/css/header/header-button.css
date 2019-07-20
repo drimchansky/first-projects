@@ -1,0 +1,20 @@
+.header-button {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+    .header-button button {
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 1.2rem;
+        padding: 15px 60px;
+        cursor: pointer;
+        transition: .15s linear;
+        color: #fff;
+        border: none;
+        border-bottom: 1px solid #c86a40;
+        border-radius: 3px;
+        background: #eb7d4b;
+    }
+        .header-button button:hover {
+            background:  #FC5C1F
+        }

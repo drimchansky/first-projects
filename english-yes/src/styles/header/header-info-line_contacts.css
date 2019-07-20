@@ -1,0 +1,60 @@
+.header-container_info-line_contacts{
+    display: flex;
+    align-items: center;
+    font-size: .85em;
+    flex-direction: column;
+    margin-right:10px;
+}
+.header-container_info-line_contacts_address{
+    display: none;
+}
+.header-container_info-line_contacts_phone{
+   
+}
+    .header-container_info-line_contacts_phone p{
+        margin: 0;
+    }
+.header-container_info-line_contacts_callme{
+    margin-top:7px;
+}
+    .header-container_info-line_contacts_callme button{
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #F5112C;
+        border-bottom: 1px solid #F5112C;
+        transition: all .2s;
+        padding: 1px 2px 3px 2px;
+    }
+    .header-container_info-line_contacts_callme button:hover{
+        color: #921624;
+        border-bottom: 1px solid #921624;
+    }
+
+
+
+
+/* MEDIA */
+
+
+@media (min-width: 768px) {
+    .header-container_info-line_contacts{
+        flex-direction: row;
+    }
+    .header-container_info-line_contacts_address{
+        display: block;
+        margin-right: 30px;
+    }
+    .header-container_info-line_contacts_phone{
+        margin-right: 30px;
+    }
+    .header-container_info-line_contacts_callme button{
+        margin-bottom: 11px;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+
+}

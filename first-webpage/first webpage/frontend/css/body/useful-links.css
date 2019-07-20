@@ -1,0 +1,49 @@
+
+	.useful-links-caption-container{
+		width: 1000px;
+		height: 50px;
+		margin:0 auto;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		font-size: 1.7em;
+		color:#dcdcdc;
+}
+.useful-links img{
+	height: : auto;
+}
+			.useful-links{
+				width: 100%;
+				display: inline-flex;
+				flex-wrap: wrap;
+				justify-content: center;
+}
+	.useful-links-container{
+		width: 1300px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		flex-direction: row;
+	}
+		.links-item{
+			margin:20px 3px 0 3px;
+			border: 1px ridge darkred;
+	}
+	.gosuslugi{
+		;
+		width: 15%;
+	}
+		.line-links{
+			width:32%;
+
+			box-sizing: border-box;
+		}
+		.small-links{
+			width: 10%;
+			box-sizing: border-box;
+		}
+			.links-right{
+				display: inline-flex;
+				width: 83%;
+				flex-wrap: wrap;
+			}

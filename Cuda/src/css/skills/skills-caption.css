@@ -1,0 +1,7 @@
+.skills-caption {
+    color: #3c4761;
+}
+	.skills-caption h2 .subline:after {
+	    top: 42px;
+	    left: 0;
+	}

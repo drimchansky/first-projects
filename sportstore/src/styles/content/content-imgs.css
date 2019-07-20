@@ -1,0 +1,29 @@
+.content-container-imgs img{
+   width: 100%;;
+    height: auto;
+}
+.imgs-1{
+    grid-area: imgs-1;
+}
+.imgs-2{
+    grid-area: imgs-2;
+}
+.imgs-3{
+    grid-area: imgs-3;
+}
+.imgs-4{
+    grid-area: imgs-4;
+}
+.imgs-5{
+    grid-area: imgs-5;
+}
+.imgs-6{
+    grid-area: imgs-6;
+}
+.imgs-7{
+    grid-area: imgs-7;
+}
+.imgs-8{
+    grid-area: imgs-8;
+}
+

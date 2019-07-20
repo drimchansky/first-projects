@@ -1,0 +1,42 @@
+.provided_title{
+    text-align: center;
+}
+.provided_title h2{
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    display: inline-block;
+    position: relative;
+}
+.provided_title h2:before{
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 70px;
+    background: #f5112c;
+    top: 70px;
+    left: 117px;
+}
+
+
+/* MEDIA */
+
+
+@media (min-width: 768px) {
+    .provided_title{
+        text-align: left;
+    }
+    .provided_title h2{
+        margin-left: 15px;
+    }
+    .provided_title h2:before{
+        top: 79px;
+        left: 0px;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+
+}

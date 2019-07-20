@@ -1,0 +1,45 @@
+.case-container-third-item{
+    margin-top: 100px;
+}
+    .case-container-third-item_text{
+        position: relative;
+    }
+    .third-item_number{
+        position: absolute;
+        font-size: 4em;
+        top: -55px;
+        left: 120px;
+    }
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .case-container-third-item{
+        align-self: flex-end;
+        margin-top: 10px;
+        flex-direction: row;
+    }
+    .third-item_number{
+        position: absolute;
+        font-size: 3em;
+        top: -174px;
+        left: 345px;
+    }
+       
+}
+
+
+
+@media (min-width: 1200px) {
+    .case-container-third-item{
+        margin-top: -100px;
+    }
+    .third-item_number{
+        left: 330px;
+    }
+}

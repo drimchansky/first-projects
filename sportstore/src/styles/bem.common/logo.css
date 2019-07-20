@@ -1,0 +1,47 @@
+.logo{
+	text-transform: uppercase;
+	font-size: 2em;
+	width: 100%;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+}
+.logo__link{
+	text-decoration: none;
+	color: #fff;
+}
+.logo_header{
+	margin: 10px 0 0 0;
+}
+.logo_header:after{
+	content: "";
+	height: 55px;
+	width: 1px;
+	background: #fff;
+	position: absolute;
+	right: -9px;
+	top: -9px;
+}
+
+
+
+/* MEDIA */
+
+
+@media (min-width: 768px) {
+	.logo{
+		width: auto;
+
+	}
+	.logo_header{
+		margin: 0 0 0 10px;
+	}
+}
+
+
+
+@media (min-width: 1200px) {
+
+}

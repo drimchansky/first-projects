@@ -1,0 +1,9 @@
+.header-caption h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 0 10px;
+    text-align: center;
+    color: #f7f3ea;
+}

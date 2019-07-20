@@ -1,0 +1,28 @@
+
+                                /*≥992px .col-lg-*/
+
+@media only screen
+and (min-width: 992px) {
+                    /*HEADER*/
+
+                /*caption*/
+    .header-caption h1 {
+        font-size: 2.2rem;
+    }
+                    /*TEAM*/
+
+                /*item*/
+.team-image {
+    width: 200px;
+    height: 200px;
+}
+    .team-item h4 {
+        font-size: 1.6rem;
+    }
+        .team-link a {
+            font-size: 1.2rem;
+        }
+            .team-item p {
+                font-size: 1.1rem;
+            }
+}

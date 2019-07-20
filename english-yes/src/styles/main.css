@@ -1,0 +1,11 @@
+@import './normalize.css';
+@import './common.css';
+@import './header/header-main.css';
+@import './case/case-main.css';
+@import './provided/provided-main.css';
+@import './teachers/teachers-main.css';
+@import './costs/costs-main.css';
+@import './process/process-main.css';
+@import './freetrail/freetrail-main.css';
+@import './footer/footer-main.css';
+@import './fonts.css';

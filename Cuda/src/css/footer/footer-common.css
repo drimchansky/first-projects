@@ -1,0 +1,25 @@
+.footer{
+	background: #344b8e;
+}
+	.footer a{
+		color: #fff;
+		font-weight: 700;
+		text-decoration: none;
+		font-size: 1rem;
+	}
+		.footer a:hover{
+			text-decoration: underline;
+		}
+.footer-content{
+	padding: 2vw 0;
+	text-align: center;
+}
+	.footer-content ul{
+		list-style-type: none;
+		padding: 0;
+	}
+		.footer-content li{
+			display: inline-block;
+			margin: 8px 10px
+		}
+

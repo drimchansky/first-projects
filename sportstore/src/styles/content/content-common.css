@@ -1,0 +1,22 @@
+.content-container{
+    box-shadow: 0 0 20px #000;
+    height: 100%;
+	max-width: 1200px;
+    margin: -40px auto 0 auto;
+    background: rgb(148, 148, 148);
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 300px);
+    grid-template-areas: 
+    "p1 p2 p3 p4"
+    "of-cap of-cap of-pic of-pic"
+    "of-cap of-cap of-pic of-pic"
+    "boot-1 boot-2 boot-3 boot-4"
+    "ban-1 glass-1 ban-2 ban-2"
+    "watch boot-5 boot-6 boot-7"
+    "imgs-1   imgs-2  imgs-3  imgs-4"
+    "imgs-5   imgs-6  imgs-7  imgs-8"
+    "spons   spons  spons  spons"
+    "spons   spons  spons  spons";
+}

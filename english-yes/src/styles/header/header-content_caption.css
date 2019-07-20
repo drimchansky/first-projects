@@ -1,0 +1,103 @@
+.header-container-content_caption{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.header-container-content_caption h1{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.5em;
+    display: inline-block;
+    position: relative;
+}
+
+    .header-container-content_caption h1 span{
+        font-size: .7em;
+    }
+
+.header-container-content_caption p{
+    color: #141414;
+    font-size: 1em;
+    margin-top: 45px;
+}
+.header-container-content_caption button{
+    border: none;
+    background: #F5112C;
+    color: white;
+    padding: 18px 15px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 18px 0px rgba(245,17,44,1);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.header-container-content_caption button:hover {
+    box-shadow: 0px 7px 18px 0px rgba(245,17,44,1);
+}
+
+
+
+
+
+
+
+/* MEDIA */
+
+
+@media (min-width: 768px) {
+    .header-container-content_caption{
+        text-align: left;
+        max-width: 35%;
+        position: relative;
+    }
+    .header-container-content_caption:after{
+        content: "";
+        position: absolute;
+        background: #2429FF;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        right: 10%;
+        top: -10%;
+    }
+    .header-container-content_caption h1{
+       
+    }
+    
+        .header-container-content_caption h1 span{
+      
+        }
+    
+    .header-container-content_caption p{
+         position: relative;
+    }
+    .header-container-content_caption p:after{
+        content: "";
+        position: absolute;
+        background: url('../../imgs/wave.png')  repeat-x;
+        height:30px;
+        width: 100px;
+        right: -20px;
+        top: -20px;
+    }
+    .header-container-content_caption button{
+      
+    }
+}
+ 
+
+
+@media (min-width: 1200px) {
+    .header-container-content_caption:after{
+        right: 0%;
+        top: -35%;
+    }
+    .header-container-content_caption h1:before{
+        content: "";
+        position: absolute;
+        height: 6px;
+        width: 70px;
+        background: #f5112c;
+        top: 121px;
+        left: 0px;
+    }
+}

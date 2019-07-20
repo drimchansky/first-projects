@@ -1,0 +1,11 @@
+.footer-container-actions-wrap-social h3{
+    margin: 0;
+}
+.footer-social-item{
+    height: 30px;
+    width: 30px;
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px 0 0 5px;
+}

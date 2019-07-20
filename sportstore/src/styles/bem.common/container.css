@@ -1,0 +1,22 @@
+.container{
+	width: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+
+/* MEDIA */
+
+
+@media (min-width: 768px) {
+.container__menu{
+	display: flex;
+	align-items: center;
+}
+}
+
+
+
+@media (min-width: 1200px) {
+
+}

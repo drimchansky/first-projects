@@ -1,0 +1,27 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.reddot{
+    color: red;
+}
+.blackdot{
+    color: #000;
+}
+
+
+
+@media (min-width: 768px){
+    body{
+        font-size: 20px;
+    }
+}

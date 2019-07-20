@@ -1,0 +1,29 @@
+.form-content{
+	margin-top: 3vw;
+}
+	.form-content form{
+		width: 100%;
+	}
+		.form-content input{
+			height: 40px;
+		}
+			.form-content textarea{
+				padding-top: 5px;
+			}
+
+.field{
+	background: #273a71;
+	margin-top: 10px;
+	border-radius: 3px;
+	border:none;
+	width: 100%;
+	display: block;
+	padding: 2px 0 0 5px;
+	color:#000;
+}
+	.field::placeholder{
+		color: #cbcfdc;
+	}
+		.field:focus::placeholder{
+			color:#4caac9;
+		}

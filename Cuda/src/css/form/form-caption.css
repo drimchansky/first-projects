@@ -1,0 +1,11 @@
+.form-caption {
+    color: #fff;
+}
+	.form-caption h2 .subline:after {
+	    left: -7px;
+	    border-bottom: 3px solid #273a71;
+	}
+		.form-caption p {
+		    font-size: .9rem;
+		    padding: 0 10px;
+		}

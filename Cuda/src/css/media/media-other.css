@@ -1,0 +1,35 @@
+                                /*≥54*/
+
+@media only screen
+and (min-width: 354px) {
+                    /*HEADER*/
+.header-caption h1 {
+    padding: 0 10%;
+}
+}
+
+                                /*≥449*/
+
+@media only screen
+and (min-width: 410px) {
+                  /*TEAM*/
+.social {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    border-radius: 50%;
+}
+    .facebook {
+        background: url('../../img/spritesheet.png') #bdd1df no-repeat 6px 1px;
+    }
+    .twitter {
+        background: url('../../img/spritesheet.png') #bdd1df no-repeat -42px 2px;
+    }
+    .linkedin {
+        background: url('../../img/spritesheet.png') #bdd1df no-repeat -16px 1px;
+    }
+    .mail {
+        background: url('../../img/spritesheet.png') #bdd1df no-repeat 2px -23px;
+    }
+}

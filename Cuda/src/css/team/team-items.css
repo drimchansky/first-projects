@@ -1,0 +1,53 @@
+.team-item {
+    margin-top: 20px;
+}
+    .team-image {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        border-radius: 50%;
+        background: #878787;
+    }
+    .team-item h4 {
+        font-size: .9rem;
+        line-height: 24px;
+        position: relative;
+        margin-bottom: 0;
+    }
+        .team-link a {
+            font-size: .8rem;
+            text-decoration: none;
+            color: #45c0e9;
+        }
+            .team-item a:hover {
+                text-decoration: underline;
+            }
+        .team-item p {
+            font-size: .6rem;
+        }
+
+                    /*SOCIAL-ICONS*/
+.social {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin: 0 2px;
+    transition: .1s linear;
+    border-radius: 50%;
+    filter: contrast(85%);
+}
+    .social:hover {
+        filter: contrast(120%);
+    }
+.facebook {
+    background: url('../../img/spritesheet.png') #bdd1df no-repeat 3px -2px;
+}
+.twitter {
+    background: url('../../img/spritesheet.png') #bdd1df no-repeat -45px 1px;
+}
+.linkedin {
+    background: url('../../img/spritesheet.png') #bdd1df no-repeat -19px -2px;
+}
+.mail {
+    background: url('../../img/spritesheet.png') #bdd1df no-repeat -1px -25px;
+}

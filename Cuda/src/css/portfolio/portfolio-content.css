@@ -1,0 +1,35 @@
+                    /*NAV*/
+.portfolio-buttons .button {
+    font-size: 0.9rem;
+    margin: 0 2px;
+    padding: 5px 12px;
+    color: #636363;
+    border: none;
+    border-radius: 3px;
+    background: #e9c884;
+}
+    .portfolio-buttons .button:hover {
+        cursor: pointer;
+        background: #fcfcfc;
+    }
+        .portfolio-buttons .active {
+            background: #fcfcfc;
+        }
+                    /*WORKS*/
+
+.profile-content-item {
+    margin-top: 20px;
+}
+    .profile-content-item img {
+        width: 100%;
+        transition: .1s linear;
+    }
+        .profile-content-item img:hover {
+            transform: scale(1.05);
+        }
+.profile-content-item span {
+    font-size: .9rem;
+    display: inline-block;
+    margin-top: 5px;
+    color: #393939;
+}

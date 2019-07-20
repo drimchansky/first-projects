@@ -1,0 +1,48 @@
+.first-body{
+	display: flex;
+	min-height: 10px;
+	width: 100%;
+}
+.first-body-container{
+	margin: 0 auto;
+	display: inline-flex;
+	justify-content: center;
+	width: 1300px;
+	margin-top: 10px;
+}
+		.news-top{
+			width: 100%;
+			display: inline-flex;
+			justify-content: ;
+			padding: 10px 20px;
+		}
+	.news-tag{
+		padding: 10px 10px;
+		border: 1px solid #342771;
+		margin-left: 20px;
+
+	}
+		.news-tag a{
+			display: block;
+			height: 100%;
+			text-decoration: none;
+			font-size: 1.5em;
+			color:#1741AA;
+		}
+		.news-tag:hover{
+				text-decoration: underline;
+				cursor: pointer;
+				box-sizing: border-box;
+			}
+
+			.all-news{
+				outline: none;
+				border-bottom: 1px solid #06B5FF;
+				color:#102D68;
+				border:none;
+				border-bottom: 1px solid darkblue;
+			}
+			
+.novosti{
+	font-size: 2em;
+}

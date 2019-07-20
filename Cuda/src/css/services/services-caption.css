@@ -1,0 +1,14 @@
+.services-caption h2 {
+    position: relative;
+    letter-spacing: 4px;
+    color: #fff;
+}
+	.services-caption p {
+	    line-height: 1.2;
+	    color: #b1eae0;
+	}
+		.services-caption h2 .subline:after {
+		    top: 47px;
+		    left: 68px;
+		    border-bottom: 3px solid rgba(0, 0, 0, 0.15);
+		}
